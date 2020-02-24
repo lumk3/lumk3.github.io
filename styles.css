@@ -1,12 +1,26 @@
 body {
-
+  background-color: #ffa926;
 }
-h1 {
-
+div.logo {
+  padding: 10px;
+  text-align: center;
 }
-p {
-
+h2 {
+  color: white;
+  font-family: Courier, monospace;
+  font-weight: 100;
+}
+img.logo-img {
+  width: 200px;
 }
 img {
   width: 100%;
+  border: 10%;
+  border-style: solid;
+  border-color: white;
+}
+p.category {
+  text-align: center;
+  font-family: Courier, monospace;
+  font-size: 150%;
 }
