@@ -1,11 +1,21 @@
+/*
+Color key:
+white: #fefced
+light yellow: #faf2b5
+dark yellow: #f0d200
+light purple: #e2b2ff
+dark-purple: #6435a7
+grey: #868686
+yolk: #fff177 */
+
 body {
   position: relative;
   padding: 0;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Crimson Text', serif;
 }
 h1 {
-  color: #fff;
+  color: #868686;
   letter-spacing: 1px;
   font-size: 40px;
   width: auto;
@@ -18,7 +28,7 @@ nav {
  right: 0;
  padding: 20px 60px;
  text-align: center;
- background-color: #333;
+ background-color: #e2b2ff;/*#fff177;*/
  font-size: 18px;
  letter-spacing: 1px;
 }
@@ -27,20 +37,14 @@ a {
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
-  color: #eee;
+  color: #868686;
   padding: 1px 0;
   margin: 0 10px;
   transition: all 0.15s ease-in-out;
 }
 
-.hov-color-red:hover {
-   color: #ff765a;
-}
-.hov-color-green:hover {
-  color: #5aff8c;
-}
-.hov-color-blue:hover {
-  color: #5acbff;
+nav a:hover {
+   color: #6435a7;
 }
 
 .wide {
@@ -48,13 +52,5 @@ a {
   width: 100%;
   padding: 80px 60px 60px 60px;
   min-height: 100vh;
-}
-#red {
-  background-color: #ff765a;
-}
-#green {
-  background-color: #5aff8c;
-}
-#blue {
-  background-color: #5acbff;
+  background-color: #fff177;
 }

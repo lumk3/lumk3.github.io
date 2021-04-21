@@ -4,6 +4,7 @@ jQuery(document).ready(function($) {
     // Example: 
     // `<a data-scroll href="#my-section">My Section</a>` will scroll to an element with the id of 'my-section'.
     function scrollToSection(event) {
+      console.log("inside scrollToSection");
       event.preventDefault();
       var $section = $($(this).attr('href')); 
       $('html, body').animate({
