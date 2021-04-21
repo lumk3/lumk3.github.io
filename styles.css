@@ -1,12 +1,14 @@
 /*
 Color key:
-white: #fefced
-light yellow: #faf2b5
-dark yellow: #f0d200
-light purple: #e2b2ff
-dark-purple: #6435a7
-grey: #868686
-yolk: #fff177 */
+white: #f9f9f9
+light yellow: #f5eab4
+medium yellow: #fbc469
+dark yellow: #f8bf61
+darker yellow: #fcad2f
+light blue: #c9dddb
+medium blue: #b6c9d7
+dark blue: #8ec5c2
+*/
 
 body {
   position: relative;
@@ -15,7 +17,7 @@ body {
   font-family: 'Crimson Text', serif;
 }
 h1 {
-  color: #868686;
+  color: #625c65;
   letter-spacing: 1px;
   font-size: 40px;
   width: auto;
@@ -28,7 +30,7 @@ nav {
  right: 0;
  padding: 20px 60px;
  text-align: center;
- background-color: #e2b2ff;/*#fff177;*/
+ background-color: #fcad2f;
  font-size: 18px;
  letter-spacing: 1px;
 }
@@ -37,14 +39,14 @@ a {
   display: inline-block;
   text-align: center;
   text-transform: uppercase;
-  color: #868686;
+  color: #f9f9f9;
   padding: 1px 0;
   margin: 0 10px;
   transition: all 0.15s ease-in-out;
 }
 
 nav a:hover {
-   color: #6435a7;
+   color: #625c65;
 }
 
 .wide {
@@ -52,5 +54,5 @@ nav a:hover {
   width: 100%;
   padding: 80px 60px 60px 60px;
   min-height: 100vh;
-  background-color: #fff177;
+  background-color: #f9f9f9;
 }
