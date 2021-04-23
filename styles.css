@@ -34,7 +34,7 @@ nav {
  font-size: 18px;
  letter-spacing: 1px;
 }
-a {
+nav a {
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -51,8 +51,13 @@ nav a:hover {
 
 .wide {
   box-sizing: border-box;
-  width: 100%;
   padding: 80px 60px 60px 60px;
-  min-height: 100vh;
-  background-color: #f9f9f9;
+  background-color: #fff9e3;
+  margin: auto;
+  width: 70%;
+}
+
+.profile {
+  float: right;
+  padding: 5px;
 }
